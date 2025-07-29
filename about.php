@@ -46,20 +46,22 @@
 
 <body class="index-page">
 
-    <header id="header" class="header d-flex align-items-center fixed-top">
-        <div class="container position-relative d-flex align-items-center justify-content-between">
+    
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container position-relative d-flex align-items-center justify-content-between">
 
-            <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
-                <!-- Uncomment the line below if you also wish to use an image logo -->
-                <img src="assets/img/logo.webp.png" alt="">
-                <h1 class="sitename">Gen Green Consult.</h1>
-            </a>
-          <?php include "components/nav.php";?>
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <img src="assets/img/logo.webp.png" alt="">
+        <h1 class="sitename">Gen Green Consult.</h1>
+      </a>
+      
+      <?php include "components/nav.php";?>
 
-            <a class="btn-getstarted" href="#consultation">Get Started</a>
+      <a class="btn-getstarted" href="#consultation">Get Started</a>
 
-        </div>
-    </header>
+    </div>
+  </header>
 
     <main class="main">
 
