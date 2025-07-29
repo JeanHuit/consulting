@@ -54,30 +54,7 @@
                 <img src="assets/img/logo.webp.png" alt="">
                 <h1 class="sitename">Gen Green Consult.</h1>
             </a>
-            <nav id="navmenu" class="navmenu">
-                <ul>
-                    <li><a href="index.html#hero" class="active">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="projects.html">Project</a></li>
-
-                    <li class="dropdown"><a href="#"><span>Us</span> <i
-                                class="bi bi-chevron-down toggle-dropdown"></i></a>
-                        <ul>
-                            <li><a href="ceo.html">About CEO</a></li>
-                            <li><a href="projects.html">Project</a></li>
-
-                            <li><a href="#team">Team</a></li>
-
-                            <li><a href="#">Dropdown 2</a></li>
-                            <li><a href="#">Dropdown 3</a></li>
-                            <li><a href="#">Dropdown 4</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-                <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-            </nav>
+          <?php include "components/nav.php";?>
 
             <a class="btn-getstarted" href="#consultation">Get Started</a>
 
